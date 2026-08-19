@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline - Palestine Through the Ages</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <div style="height:8px; background-color:#000000;"></div>
+  <div style="height:8px; background-color:#ffffff;"></div>
+  <div style="height:8px; background-color:#009736;"></div>
+
+  <div class="navbar">
+    <div class="container">
+      <span class="nav-title">Palestine Through the Ages</span>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="timeline.html">Timeline</a>
+        <a class="lang-switch" href="../ar/timeline.html">العربية</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <h1 style="text-align:center; margin-top:30px;">The Complete Timeline of Palestinian History</h1>
+    <p style="text-align:center; color:#d8cdb0;">Click any event name to see its full details.</p>
+
+    
+    <h2 class="era-title">1. Ancient Canaanite Palestine</h2>
+    <p class="era-date">c. 3200 - 1200 BCE</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">c. 9000 BCE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en1')">Jericho: the world's oldest inhabited city</span>
+            <div class="event-details" id="en1">
+              <p>Excavations show Jericho in the Jordan Valley has been inhabited since the Neolithic period, with defensive stone walls dating back to around 8000 BCE.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">3200-2000 BCE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en2')">Rise of the Canaanite city-states</span>
+            <div class="event-details" id="en2">
+              <p>Independent Canaanite city-states emerged in Palestine, such as Megiddo, Hazor, and Jerusalem, linked by trade with Egypt and Mesopotamia.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">1550-1200 BCE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en3')">Egyptian control of Canaan</span>
+            <div class="event-details" id="en3">
+              <p>Pharaonic Egypt exercised authority over the cities of Canaan, as documented in the Amarna letters between local rulers and the Egyptian court.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <h2 class="era-title">2. Sea Peoples and Ancient Kingdoms</h2>
+    <p class="era-date">c. 1200 - 539 BCE</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">1200-1150 BCE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en4')">The "Sea Peoples" settle the coast, giving Palestine its name</span>
+            <div class="event-details" id="en4">
+              <p>Groups known as the Peleset settled the southern coast and founded Gaza, Ashkelon, and Ashdod. Their name later gave rise to "Palestine."</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">722 BCE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en5')">Assyrian conquest of the Kingdom of Israel</span>
+            <div class="event-details" id="en5">
+              <p>The Assyrian Empire overran the Kingdom of Israel, and its capital Samaria fell, with much of its population deported.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">586 BCE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en6')">Babylonian conquest and the exile of Judah</span>
+            <div class="event-details" id="en6">
+              <p>Babylonian king Nebuchadnezzar II destroyed Jerusalem and its Temple, exiling part of the population of Judah to Babylon.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <h2 class="era-title">3. Persians, Greeks, and Romans</h2>
+    <p class="era-date">539 BCE - 636 CE</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">539 BCE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en7')">Achaemenid Persian rule</span>
+            <div class="event-details" id="en7">
+              <p>After Babylon fell to Cyrus the Great, Palestine became part of the Persian Empire, and some exiles returned to rebuild the Temple.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">332 BCE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en8')">Alexander the Great's conquest</span>
+            <div class="event-details" id="en8">
+              <p>Alexander the Great swept through the region after defeating the Persian Empire, drawing Palestine into the Hellenistic world.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">63 BCE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en9')">Roman conquest under Pompey</span>
+            <div class="event-details" id="en9">
+              <p>Roman general Pompey entered Jerusalem, bringing the region under Roman authority; Palestine later became a Roman province.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">66-135 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en10')">The two Jewish revolts against Rome</span>
+            <div class="event-details" id="en10">
+              <p>The Great Revolt broke out in 66 CE and Rome destroyed the Second Temple in 70 CE. After the Bar Kokhba revolt in 135 CE, Hadrian renamed the province "Syria Palaestina" — the first official use of the name Palestine.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <h2 class="era-title">4. The Islamic Conquest and Medieval Rule</h2>
+    <p class="era-date">636 - 1099 CE</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">636 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en11')">Battle of Yarmouk and the conquest of the Levant</span>
+            <div class="event-details" id="en11">
+              <p>Muslim armies defeated Byzantine forces at Yarmouk, opening the way for the conquest of the entire Levant, including Palestine.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">637 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en12')">Conquest of Jerusalem under Caliph Umar</span>
+            <div class="event-details" id="en12">
+              <p>Jerusalem's patriarch surrendered the city peacefully to Caliph Umar, who granted its Christian residents guaranteed safety.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">691 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en13')">Construction of the Dome of the Rock</span>
+            <div class="event-details" id="en13">
+              <p>Umayyad Caliph Abd al-Malik ordered the Dome of the Rock built atop the Haram al-Sharif, one of the oldest Islamic buildings in the world.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <h2 class="era-title">5. The Crusades and the Mamluks</h2>
+    <p class="era-date">1099 - 1516 CE</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">1099 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en14')">The First Crusade and the fall of Jerusalem</span>
+            <div class="event-details" id="en14">
+              <p>The First Crusade captured Jerusalem and established the Latin Kingdom of Jerusalem.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">1187 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en15')">Saladin liberates Jerusalem</span>
+            <div class="event-details" id="en15">
+              <p>Saladin crushed the Crusader army at the Battle of Hattin, then entered Jerusalem, ending nearly ninety years of Crusader rule.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">1260 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en16')">The Battle of Ain Jalut</span>
+            <div class="event-details" id="en16">
+              <p>The Mamluks defeated the Mongol army at Ain Jalut in Palestine, halting the Mongol advance and founding Mamluk rule for two centuries.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <h2 class="era-title">6. The Ottoman Era</h2>
+    <p class="era-date">1516 - 1917 CE</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">1516 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en17')">The Ottoman conquest of the Levant</span>
+            <div class="event-details" id="en17">
+              <p>Sultan Selim I defeated the Mamluks, bringing Palestine under Ottoman rule for the next four centuries.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">1882 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en18')">Start of organized Jewish immigration</span>
+            <div class="event-details" id="en18">
+              <p>The first organized waves of Jewish immigration to Palestine began, driven by the rise of Zionism in Europe.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">1917 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en19')">Jerusalem falls to British forces</span>
+            <div class="event-details" id="en19">
+              <p>British forces under General Allenby entered Jerusalem during World War I, ending Ottoman rule.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <h2 class="era-title">7. The British Mandate</h2>
+    <p class="era-date">1917 - 1948 CE</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">Nov 2, 1917</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en20')">The Balfour Declaration</span>
+            <div class="event-details" id="en20">
+              <p>Britain announced support for a "national home for the Jewish people" in Palestine, without consulting its native inhabitants.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">1936-1939 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en21')">The Great Palestinian Revolt</span>
+            <div class="event-details" id="en21">
+              <p>A widespread Palestinian uprising against British rule and Jewish immigration was met with harsh military repression.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">Nov 29, 1947</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en22')">UN Partition Resolution 181</span>
+            <div class="event-details" id="en22">
+              <p>The UN adopted a resolution to partition Palestine into two states. Arab leaders rejected it; Zionist leadership accepted it.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <h2 class="era-title">8. The Nakba and the Founding of Israel</h2>
+    <p class="era-date">1947 - 1949 CE</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">May 14, 1948</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en23')">Declaration of the State of Israel</span>
+            <div class="event-details" id="en23">
+              <p>As the British Mandate ended, Ben-Gurion declared the State of Israel, and several Arab armies entered the war the next day.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">1947-1949 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en24')">The Nakba: displacement of hundreds of thousands</span>
+            <div class="event-details" id="en24">
+              <p>Around 700,000-750,000 Palestinians fled or were displaced, and hundreds of villages were destroyed. This event is known as the Nakba.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">1949 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en25')">Armistice agreements and partition</span>
+            <div class="event-details" id="en25">
+              <p>Israel came to control about 78% of Mandatory Palestine; Egypt administered Gaza, and Jordan annexed the West Bank in 1950.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <h2 class="era-title">9. From the Naksa to Oslo</h2>
+    <p class="era-date">1964 - 1993 CE</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">1964 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en26')">Founding of the PLO</span>
+            <div class="event-details" id="en26">
+              <p>The Palestine Liberation Organization was founded, later becoming the sole legitimate representative of the Palestinian people.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">June 1967</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en27')">The Six-Day War (the Naksa)</span>
+            <div class="event-details" id="en27">
+              <p>Israel occupied the West Bank, East Jerusalem, and Gaza, along with Sinai and the Golan Heights, in an event known as the Naksa.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">Dec 1987</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en28')">The First Palestinian Intifada</span>
+            <div class="event-details" id="en28">
+              <p>A widespread popular uprising in the occupied territories returned the Palestinian cause to international attention.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <h2 class="era-title">10. Oslo and the Second Intifada</h2>
+    <p class="era-date">1993 - 2005 CE</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">Sep 13, 1993</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en29')">Signing of the Oslo Accords</span>
+            <div class="event-details" id="en29">
+              <p>The PLO and Israel signed a Declaration of Principles establishing an interim Palestinian authority in parts of the West Bank and Gaza.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">Sep 2000</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en30')">Outbreak of the Second Intifada</span>
+            <div class="event-details" id="en30">
+              <p>After the Camp David talks failed, a more violent uprising broke out, lasting years with heavy losses on both sides.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">2002-2005 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en31')">Separation barrier and Gaza disengagement</span>
+            <div class="event-details" id="en31">
+              <p>Israel began building a separation barrier around parts of the West Bank, then withdrew its settlements from Gaza in 2005.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <h2 class="era-title">11. Palestinian Division and the Siege of Gaza</h2>
+    <p class="era-date">2006 - 2023 CE</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">Jan 2006</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en32')">Hamas wins legislative elections</span>
+            <div class="event-details" id="en32">
+              <p>Hamas won a majority of seats in the Palestinian Legislative Council, plunging the Authority into political crisis.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">2007 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en33')">The Fatah-Hamas split and the blockade</span>
+            <div class="event-details" id="en33">
+              <p>Hamas took control of Gaza after internal fighting, and Israel imposed a tight blockade lasting more than fifteen years.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">2008-2021 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en34')">Repeated rounds of military confrontation</span>
+            <div class="event-details" id="en34">
+              <p>Several major rounds of confrontation took place between Israel and armed factions in Gaza, notably in 2008, 2014, and 2021.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+    <h2 class="era-title">12. Palestine Today</h2>
+    <p class="era-date">2023 - Present</p>
+    <table class="events">
+      <thead>
+        <tr><th>Date</th><th>Event</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="event-year">Oct 7, 2023</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en35')">The October 7 attack and the Gaza war</span>
+            <div class="event-details" id="en35">
+              <p>Hamas launched a large-scale attack on Israeli communities near Gaza; Israel responded with an extensive military campaign.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">2023-2024 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en36')">A wide-scale humanitarian crisis in Gaza</span>
+            <div class="event-details" id="en36">
+              <p>Intense bombardment and ground operations caused widespread destruction and a large civilian death toll, alongside a displacement and famine crisis.</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="event-year">2024-2026 CE</td>
+          <td>
+            <span class="event-name" onclick="toggleEvent('en37')">Ceasefire and diplomatic efforts</span>
+            <div class="event-details" id="en37">
+              <p>Multiple rounds of mediation, mainly by Qatar, Egypt, and the United States, aimed at truces and hostage exchanges continue as events unfold.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+  <div class="footer">
+    <p>Palestine Through the Ages &mdash; an interactive educational site built with HTML, CSS, and JavaScript only.</p>
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
